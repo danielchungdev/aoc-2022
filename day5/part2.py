@@ -1,4 +1,6 @@
 
+#Requires manual input [.] on every empty space for input
+
 def create_crates(n):
     return [[] for i in range(n)]
 
