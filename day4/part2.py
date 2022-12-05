@@ -24,3 +24,8 @@ for line in f:
         reconsider += 1
 
 print(reconsider)
+
+
+x = [[1,2], [2,1]]
+
+zip(*x)
