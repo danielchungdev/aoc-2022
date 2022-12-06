@@ -1,14 +1,14 @@
 
 #Requires manual input [.] on every empty space for input
 
-def create_crates(n):
-    return [[] for i in range(n)]
-
+stro = ""
 f = open('input.txt')
 n = 0
 
+def create_crates(n):
+    return [[] for i in range(n)]
+
 crates = create_crates(9)
-print(crates)
 
 for line in f: 
     line = line.strip().split(' ')
@@ -26,7 +26,6 @@ for line in f:
             amount -= 1
     n += 1
 
-stro = ""
 for i in crates: 
     stro += i[-1]
 
